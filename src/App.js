@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Navigation from './Navigation';
-import Hero from './Hero';
-import Contact from './Contact';
+import Hero from './Hero/Hero';
+import Contact from './Contact/Contact';
 import { useState } from 'react';
 
 function App() {

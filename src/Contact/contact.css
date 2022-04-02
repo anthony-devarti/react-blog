@@ -1,0 +1,83 @@
+.btn-secondary{
+    color: #333;
+    border: white;
+    background-color: rgb(235, 235, 235);
+}
+
+.btn-secondary:hover{
+    color: rgb(0, 255, 200);
+    background-color:#333;
+}
+.btn-secondary:focus{
+    color: #333;
+    text-shadow: none;
+
+}
+.text-white{
+    border-color: rgb(235, 235, 235);
+}
+
+.cover-container{
+    background-image: url("nycskyline.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-link {
+    color:rgb(0, 255, 200);
+}
+.nav-link:hover{
+    color:rgb(235, 235, 235)
+}
+
+h3 {
+    color:rgb(0, 255, 200)
+}
+
+/* CONTACTS */
+.contact-box {
+    background-color: #ffffff;
+    border: 1px solid #e7eaec;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.contact-box > a {
+    color: inherit;
+}
+.contact-box.center-version {
+    border: 1px solid #e7eaec;
+    padding: 0;
+}
+.contact-box.center-version > a {
+    display: block;
+    background-color: #212529;
+    padding: 20px;
+    text-align: center;
+}
+.contact-box.center-version > a img {
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact-box.center-version address {
+    margin-bottom: 0;
+}
+.contact-box .contact-box-footer {
+    text-align: center;
+    background-color: #212529;
+    border-top: 1px solid #e7eaec;
+    padding: 15px 20px;
+}
+a{
+    text-decoration:none !important;    
+}
+
+.contactbutton{
+    color: #e7eaec;
+}
+
+.contactbutton :hover{
+    color: rgb(0, 255, 200);
+}

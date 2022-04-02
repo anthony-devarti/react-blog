@@ -8,7 +8,7 @@ export default function ContactCard(){
                   <Col className="Col">
                       <div className="contact-box center-version">
                           <a href="#profile.html">
-                              <img alt="image" className="img-circle" src="/img/anthony.jpeg" />
+                              <img alt="" className="img-circle" src="../Images/anthony.jpeg" />
                               <h3 className="m-b-xs"><strong>Anthony DeVarti</strong></h3>
                   
                               <div className="font-bold">Web Development Student</div>
@@ -20,10 +20,10 @@ export default function ContactCard(){
                               </address>
                           </a>
                           <div className="contact-box-footer">
-                              <div class="m-t-xs btn-group">
-                                  <a class="contactbutton"><i class="fa fa-phone"></i> Call </a>
-                                  <a class="contactbutton"><i class="fa fa-envelope"></i> Email</a>
-                                  <a class="contactbutton"><i class="fa fa-user-plus"></i> Follow</a>
+                              <div className="m-t-xs btn-group">
+                                  <a className="contactbutton" href="#"><i className="fa fa-phone"></i> Call </a>
+                                  <a className="contactbutton" href="#"><i className="fa fa-envelope"></i> Email</a>
+                                  <a className="contactbutton" href="#"><i className="fa fa-user-plus"></i> Follow</a>
                               </div>
                           </div>
                   
