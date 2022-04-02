@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col, } from "react-bootstrap";
+import "./contact.css"
+import anthony from "../Images/anthony.jpeg"
 
 export default function ContactCard(){
     return (
@@ -8,7 +10,7 @@ export default function ContactCard(){
                   <Col className="Col">
                       <div className="contact-box center-version">
                           <a href="#profile.html">
-                              <img alt="" className="img-circle" src="../Images/anthony.jpeg" />
+                              <img alt="me" className="img-circle" src={anthony} />
                               <h3 className="m-b-xs"><strong>Anthony DeVarti</strong></h3>
                   
                               <div className="font-bold">Web Development Student</div>

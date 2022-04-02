@@ -17,13 +17,6 @@
     border-color: rgb(235, 235, 235);
 }
 
-.cover-container{
-    background-image: url("nycskyline.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .nav-link {
     color:rgb(0, 255, 200);
 }
@@ -54,6 +47,7 @@ h3 {
     background-color: #212529;
     padding: 20px;
     text-align: center;
+    color: #e7eaec;
 }
 .contact-box.center-version > a img {
     width: 80px;
@@ -63,6 +57,7 @@ h3 {
 }
 .contact-box.center-version address {
     margin-bottom: 0;
+    color: #e7eaec;
 }
 .contact-box .contact-box-footer {
     text-align: center;
