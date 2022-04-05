@@ -1,0 +1,13 @@
+# Week 10
+
+## Now that you are halfway through bootcamp, what has been the biggest hurdle that you have gone past? What do you think is going to be the next biggest thing to power through?
+So far, the biggest hurdle has been not letting myself get overwhelmed by the scope of what I'm working on.  I feel pretty good about my ability to make projects smaller and ensure that each piece is working as I expect before I move on.
+I believe the next big hurdle is the point where this methodology takes me down the wrong path.  To this point, all of our projects have been relatively simple ones, that don't have a really high fail rate, so inchworming through them is not nearly as painful when your progress is very linear.  I expect that this process may be less helpful if the path to the end of the project isnt as clear and I may need to double back and try again.
+
+## Compared to earlier, what are three ideas you might want to do for your final project? Are they the same ideas as before, or have they changed now that you understand more about the technology and your limitations?
+My final project ideas have moved around quite a bit as I've learned more and more about what I would be using and as I've gotten more experience with the project for each week.  At this point, I'm pretty confident that my final project will be a staffing/scheduling web app.  I have my must-haves, should-haves, could-haves, and won't haves diagrammed out, and I am working on wireframing it so I know what to build do.  So far, the choices I've cycled through haven't really been affected by limitations, but by my interest moving around as I learn new things.  Naturally, as I learned about react, I was applying those concepts to my final project concept and seeing how I could apply and demonstrate my new skill through that project.  The same is true of local storage.  As I got more pieces of information, the project ideas expanded and narrowed based on what I knew, and what I felt could demonstrate as many of these skills as possible.
+
+
+
+## What surprised you about your first week in Python and how was it different from your first week in JavaScript? 
+Honestly, the painlessness of the whole process.  After starting Javascript, the learning curve felt pretty steep.  I was concerned that starting over with a new language would be similarly difficult, but the logic and a good bit of the syntax all carried over pretty well.  I found that even the practice I had gotten learning to find answers made the whole thing seem far less difficult than when I was learning my first programming language.

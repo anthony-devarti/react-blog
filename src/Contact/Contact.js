@@ -1,7 +1,8 @@
 import React from "react";
 import ContactCard from "./ContactCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFontAwesome } from "@fortawesome/free-solid-svg-icons";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+
 
 export default function Contact(){
     return(
@@ -10,7 +11,7 @@ export default function Contact(){
         <p>My name is Anthony DeVarti and I am currently a student at the Awesome Inc web Development bootcamp.  </p>
         <h3>Languages and Frameworks</h3>
         <h4>Languages</h4>
-        <FontAwesomeIcon icon="fa-brands fa-js" />
+        <FontAwesomeIcon icon={faHome} />
         <ContactCard />
         </>
     )
