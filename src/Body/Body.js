@@ -11,7 +11,7 @@ export default function Body({ currentPage }){
         return <Blog />;
     else if (currentPage === pages.portfolio)
         return <Portfolio />;
-    else if (currentPage === pages.about)
+    else if (currentPage === pages.contact)
         return <Contact />;
     else if (currentPage === pages.recent)
         return <Recent />

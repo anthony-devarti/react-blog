@@ -1,3 +1,7 @@
-p {
+.p {
     color: #e7eaec;
+}
+
+.icons {
+    margin: 1rem;
 }

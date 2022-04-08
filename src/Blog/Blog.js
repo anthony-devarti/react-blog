@@ -5,6 +5,6 @@ export default function Blog(){
 
 
     return(
-        <>This is where the full page for the blog posts will go so the user can view blog posts further back than the most recent 3 on the home page.</>
+        <p>This is where the full page for the blog posts will go so the user can view blog posts further back than the most recent 3 on the home page.</p>
     )
 }
