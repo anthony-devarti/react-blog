@@ -1,5 +1,5 @@
 import React from "react"
-import { Image, Carousel, Button } from "react-bootstrap"
+import { Button } from "react-bootstrap"
 import "./Hero.css"
 
 export default function Main(){

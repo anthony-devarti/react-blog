@@ -1,8 +1,9 @@
 import './App.css';
 import Navigation from './Navigation';
-import Hero from './Hero/Hero';
-import Contact from './Contact/Contact';
 import { useState } from 'react';
+import Body from './Body/Body';
+import { pages } from './Navigation';
+import Hero from './Hero/Hero'
 
 function App() {
   //leaving this here so that I can avoid having all elements rendered at the same time
@@ -11,16 +12,17 @@ function App() {
   //down to reveal the newly rendered content.  
   // const [viewport, setViewport] = useState()
 
+  const [current, setCurrent] = useState(pages.contact);
+
   return (
     <>
-    <Navigation />
+    <Navigation onNavigate={setCurrent} />
     <Hero />
-    {/* <Recent />
-    <Portfolio />
-    <Blog />*/}
-    <Contact />
+    <Body currentPage={current} />
     </>
   );
 }
+
+
 
 export default App;
