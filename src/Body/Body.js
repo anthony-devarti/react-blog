@@ -13,7 +13,7 @@ export default function Body({ currentPage }){
         return <Portfolio />;
     else if (currentPage === pages.about)
         return <Contact />;
-    else if (currentPage === pages.home)
+    else if (currentPage === pages.recent)
         return <Recent />
 }
 

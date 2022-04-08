@@ -10,9 +10,9 @@ function App() {
 
   //ideally, each element will be added to the viewport on click.  After it has been rendered, the link will then scroll
   //down to reveal the newly rendered content.  
-  // const [viewport, setViewport] = useState()
+  // const [current, setCurrent] = useState(homepage)
 
-  const [current, setCurrent] = useState(pages.contact);
+  const [current, setCurrent] = useState(pages.recent);
 
   return (
     <>

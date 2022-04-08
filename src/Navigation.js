@@ -1,5 +1,6 @@
 import React from "react"
 import { Navbar, Container, Nav } from "react-bootstrap"
+import './Navigation.css'
 
 export default function Navigation({ onNavigate }){
 
@@ -8,8 +9,8 @@ export default function Navigation({ onNavigate }){
     return(
         <Navbar bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="#home">Anthony DeVarti</Navbar.Brand>
-                <Nav className="me-auto">
+                <Navbar.Brand href="#home" style={{justifyContent:'left'}} >Anthony DeVarti</Navbar.Brand>
+                <Nav style={{textAlign:'right'}}>
                     <Nav.Link href="#home" onClick={() => onNavigate(pages.recent)}>Home</Nav.Link>
                     <Nav.Link href="#blog" onClick={() => onNavigate(pages.blog)}>Blog</Nav.Link>
                     <Nav.Link href="#portfolio" onClick={() => onNavigate(pages.portfolio)}>Porfolio</Nav.Link>

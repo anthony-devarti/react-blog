@@ -26,3 +26,15 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.btn-primary {
+  color: #333;
+  background-color: #ebebeb;
+  border-color: #85888a;
+}
+
+.btn-primary:hover{
+  color: rgb(0, 255, 200);
+  background-color: #333;
+  border-color: #85888a;
+}

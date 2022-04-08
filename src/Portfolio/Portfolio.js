@@ -1,5 +1,7 @@
 export default function Portfolio(){
+    //this likely won't have any logic associated with it at first
+    
     return(
-        <>This is where the portfolio will go.</>
+        <p>This is where the portfolio will go.</p>
     )
 }
