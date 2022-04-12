@@ -12,7 +12,7 @@ function App() {
   //down to reveal the newly rendered content.  
   // const [current, setCurrent] = useState(homepage)
 
-  const [current, setCurrent] = useState(pages.recent);
+  const [ current, setCurrent ] = useState(pages.recent);
 
   return (
     <>
