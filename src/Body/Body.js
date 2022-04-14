@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { pages } from '../Navigation'
-import Blog from '../Body/Body';
+import Blog from '../Blog/Blog';
 import Portfolio from '../Portfolio/Portfolio';
 import Contact from '../Contact/Contact';
 import Recent from '../Recent/Recent';

@@ -3,6 +3,7 @@ import ContactCard from "./ContactCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faJs, faPython, faReact, faSwift } from "@fortawesome/free-brands-svg-icons"
 import { Row } from "react-bootstrap";
+import  { ReactComponent as DjangoIcon } from "../icons/djangoIcon.svg";
 
 
 export default function Contact(){
@@ -22,9 +23,9 @@ export default function Contact(){
                 <FontAwesomeIcon className="icons" gap={3} icon={faReact} inverse size="5x" />
             </div>
             <h4>Coming Soon</h4>
-            <div className="icon-row">
+            <div className="icon-row" >
                 <FontAwesomeIcon className="icons"icon={faSwift} inverse size="5x" />
-                Django
+                <DjangoIcon />
             </div>
             </center>
         <ContactCard />
