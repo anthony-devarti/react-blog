@@ -1,10 +1,9 @@
 import React from "react"
-import { Navbar, Container, Nav } from "react-bootstrap"
+import { Navbar, Container, Nav, Collapse, NavDropdown, Offcanvas, Form, FormControl, Button } from "react-bootstrap"
 import './Navigation.css'
 
-export default function Navigation({ onNavigate }){
 
-    
+export default function Navigation({ onNavigate }){
 
     return(
         <Navbar bg="dark" variant="dark">
@@ -16,6 +15,7 @@ export default function Navigation({ onNavigate }){
                     <Nav.Link href="#portfolio" onClick={() => onNavigate(pages.portfolio)}>Porfolio</Nav.Link>
                     <Nav.Link href="#contact" onClick={() => onNavigate(pages.contact)}>Contact</Nav.Link>
                 </Nav>
+                {/* Make a hamburger menu and make the display none, then change this to switch with the nav items when the window is resized */}
             </Container>
         </Navbar>
     )
