@@ -28,6 +28,10 @@
   text-decoration: none;
 }
 
-.horizontal scroll {
+.horizontal-scroll {
   overflow-x: scroll;
+}
+
+.scrollable {
+  display: inline-block;
 }
