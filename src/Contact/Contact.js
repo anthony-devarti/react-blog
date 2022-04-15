@@ -18,14 +18,14 @@ export default function Contact(){
                 <FontAwesomeIcon className="icons" icon={faJs} inverse size="5x" />
                 <FontAwesomeIcon className="icons" icon={faPython} inverse size="5x" />
             </div>
-            <h4>Frameworks</h4>
+            <h4>Frameworks and Libraries</h4>
             <div className="icon-row">
                 <FontAwesomeIcon className="icons" gap={3} icon={faReact} inverse size="5x" />
+                <DjangoIcon />
             </div>
             <h4>Coming Soon</h4>
             <div className="icon-row" >
                 <FontAwesomeIcon className="icons"icon={faSwift} inverse size="5x" />
-                <DjangoIcon />
             </div>
             </center>
         <ContactCard />
