@@ -10,10 +10,8 @@ export default function Blog(){
 
     return(
         <>
-        <h3><center>Blog Posts</center></h3>
-        <div className="scrollmenu">
+        <div className="superheader"><center>Blog Posts</center></div>
         <Previews />
-        </div>
         <BlogEntry />
         </>
     )
