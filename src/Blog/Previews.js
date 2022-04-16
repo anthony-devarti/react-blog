@@ -1,6 +1,7 @@
+import BlogEntry from "./BlogEntry";
 import { posts } from "./BlogPosts/blogposts"
 
-export default function Previews(){
+export default function Previews({ pick }){
     //this needs to generate the blog posts and display them in a grid, with the ability to click on a post to see the full post below
     //ideally, these posts should be generated from a database, but for now, I'll just use the blogposts.js file
     //this page should display every blog post in the array, not just the most recent ones
@@ -19,7 +20,7 @@ export default function Previews(){
                             <ul className="d-flex mt-auto">
                                 <li className="d-flex align-items-center me-3">
                                     <small>{post.teaser}</small></li>
-                                    <li className="d-flex align-items-start"><a href='something' className="btn btn-lg btn-secondary fw-bold mt-5">Read</a>
+                                    <li className="d-flex align-items-start"><a href='#entry' onClick={() => pick(post.id)} className="btn btn-lg btn-secondary fw-bold mt-5">Read</a>
                                     <small className="small-date">{post.date}</small>              
                                 </li>
                             </ul>

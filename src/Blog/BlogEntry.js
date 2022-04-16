@@ -1,16 +1,15 @@
 import { posts } from "./BlogPosts/blogposts";
 import { useState } from "react";
 
-export default function BlogEntry(){
+export default function BlogEntry( {currentBlog} ){
     
-    let current = 4;
 
-    let title = posts[current].title;
-    let body = posts[current].body;
+    let title = posts[currentBlog].title;
+    let body = posts[currentBlog].body;
 
     return(
         <>
-        <h2>{title}</h2>
+        <h2 id="entry">{title}</h2>
         <p>{body}</p>
         </>
     )
