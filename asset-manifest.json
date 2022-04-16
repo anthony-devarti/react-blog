@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-blog/static/css/main.b1db47ec.css",
+    "main.js": "/react-blog/static/js/main.a756f972.js",
+    "static/media/longlines.avif": "/react-blog/static/media/longlines.a4c85a360725c1b30b25.avif",
+    "static/media/anthony.jpeg": "/react-blog/static/media/anthony.e576d8e437c63704f196.jpeg",
+    "index.html": "/react-blog/index.html",
+    "static/media/djangoIcon.svg": "/react-blog/static/media/djangoIcon.f984aa0a04f8e7a4d5d11344cb18dc82.svg",
+    "main.b1db47ec.css.map": "/react-blog/static/css/main.b1db47ec.css.map",
+    "main.a756f972.js.map": "/react-blog/static/js/main.a756f972.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1db47ec.css",
+    "static/js/main.a756f972.js"
+  ]
+}
