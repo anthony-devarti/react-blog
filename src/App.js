@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     <Navigation onNavigate={setCurrent} />
-    <Hero />
+    <Hero onNavigate={setCurrent}/>
     <Body currentPage={current} />
     </>
   );

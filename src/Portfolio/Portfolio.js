@@ -12,7 +12,7 @@ export default function Portfolio(){
         return (
             <>
             <div className="superheader"><center>Portfolio</center></div>
-            <p>This is a collection of the projects I have worked on so far.  I'm always looking to take on more and show my work.  I have included dates on these to demonstrate my trajectory through the subject matter.</p>
+            <p>This is a collection of the projects I have worked on so far.  I'm always looking to take on more and show my work.  I have included dates on these to demonstrate my trajectory through the subject matter.  The visit button will take you to the github repository for the project.  The live view of each project should be available in a link in the readme.</p>
             <div className="row cols cols-3">
             {projects.reverse().map(project => {
               return (
