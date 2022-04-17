@@ -24,7 +24,7 @@ export const projects = [
         "id": "2",
         "title": "Structure Page of Content",
         "teaser": "HTML and CSS basics via birdwatching.",
-        "link": "#",
+        "link": "https://github.com/anthony-devarti/structurepageofcontentproject",
         "photo": "./images/screenshot",
         "stack": "[html, css]",
         "date": "02/04/22",
