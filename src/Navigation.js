@@ -10,10 +10,10 @@ export default function Navigation({ onNavigate }){
             <Container>
                 <Navbar.Brand href="#home" style={{justifyContent:'left'}} >Anthony DeVarti</Navbar.Brand>
                 <Nav style={{textAlign:'right'}}>
-                    <Nav.Link href="#recent" onClick={() => onNavigate(pages.recent)}>Home</Nav.Link>
-                    <Nav.Link href="#blog" onClick={() => onNavigate(pages.blog)}>Blog</Nav.Link>
-                    <Nav.Link href="#portfolio" onClick={() => onNavigate(pages.portfolio)}>Porfolio</Nav.Link>
-                    <Nav.Link href="#contact" onClick={() => onNavigate(pages.contact)}>Contact</Nav.Link>
+                    <Nav.Link href="#main" onClick={() => onNavigate(pages.recent)}>Home</Nav.Link>
+                    <Nav.Link href="#main" onClick={() => onNavigate(pages.blog)}>Blog</Nav.Link>
+                    <Nav.Link href="#main" onClick={() => onNavigate(pages.portfolio)}>Porfolio</Nav.Link>
+                    <Nav.Link href="#main" onClick={() => onNavigate(pages.contact)}>Contact</Nav.Link>
                 </Nav>
                 {/* Make a hamburger menu and make the display none, then change this to switch with the nav items when the window is resized */}
             </Container>

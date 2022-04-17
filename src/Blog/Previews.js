@@ -6,6 +6,8 @@ export default function Previews({ pick }){
     //ideally, these posts should be generated from a database, but for now, I'll just use the blogposts.js file
     //this page should display every blog post in the array, not just the most recent ones
 
+    //testing out require method
+    
 
     const CardList = () => {
         return (
@@ -36,6 +38,8 @@ export default function Previews({ pick }){
 
 
     return (
+        <>
         <CardList />
+        </>
     )
 }

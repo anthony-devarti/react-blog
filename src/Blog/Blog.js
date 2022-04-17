@@ -10,9 +10,11 @@ export default function Blog(){
 
     return(
         <>
-        <div className="superheader"><center>Blog Posts</center></div>
+        <div className="superheader" id="main"><center>Blog Posts</center></div>
         <Previews pick={setCurrentBlog}/>
+        <div className='textfield'>
         <BlogEntry currentBlog={currentBlog}/>
+        </div>
         </>
     )
 }

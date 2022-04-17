@@ -15,7 +15,7 @@ export const projects = [
         "title": "The First Blog Post",
         "teaser": "Learning Github and gh pages.",
         "link": "https://github.com/anthony-devarti/anthony-devarti.github.io",
-        "photo": "./images/screenshot",
+        "photo": "../Images/firstblog.png",//for whatever reason, I can't get the photos in here.  This is a good question to ask
         "stack": "[markdown]",
         "date": "01/26/22",
         "week": "1"
