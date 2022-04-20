@@ -9,8 +9,6 @@ export default function Portfolio(){
     //this is going to have a lot of logic.  I do not like repeating this code over and over again.  I'd like to store this information in a database, and procedurally generate each of the fields based on that information.
     //With this said, I should probably wait until we cover django to see if I want to use that framework rather than just using vanilla sql and postgresql
 
-    //this works to statically add a photo, but when I try to pull the path from the projects obj dynamically, it doesn't work.
-    const photo = require("../Images/firstblog.png")
 
     const ProjList = () => {
         return (
@@ -21,12 +19,12 @@ export default function Portfolio(){
               {projects.reverse().map(project => {
                 return (
                   <>
-                    <div className="card" href={project.link}>
+                    <div className="card">
                       <figure className="card__thumbnail">
-                        <img src={photo}></img>
+                        <img src={process.env.PUBLIC_URL + '/projectphotos/' + project.photo }></img>
                         <span className="card__title">{project.title}</span>
-                        <span className="date__field" style={{position:"absolute", right:"0", top:"0", color:"white"}}>{project.date}</span>
                       </figure>
+                        <span className="date__field" >{project.date}</span>
                       <a href={project.link} className="btn btn-lg btn-secondary fw-bold mt-5">Visit</a>
                     </div>
                   </>

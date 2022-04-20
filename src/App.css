@@ -36,6 +36,7 @@
   padding: 35px;
   font-size: 4em;
   font-family: "arial";
+  margin-top: 4rem;
 }
 
 .textfield {
@@ -98,4 +99,25 @@
 }  
 /* Styles the title inside the img container */
 .card__thumbnail > .card__title{ /* Just for styling */
-  position: absolute; left: 0; bottom: 0; }
+  position: absolute; left: 0; bottom: 0; 
+  background-image: linear-gradient(to bottom, transparent, #000 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}
+
+.card-img {
+  z-index: 0;
+}
+/*this is showing up under the images rather than on top of them. I don't know why*/
+.card-img::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, #fff, #000 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+  opacity: 60;
+}
