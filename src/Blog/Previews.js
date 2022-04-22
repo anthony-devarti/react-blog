@@ -17,7 +17,7 @@ export default function Previews({ pick }){
                 <>
                 <div className="col col">
                     <div className="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg card scrollable m-3" style={{maxWidth:'80vw', maxHeight:"400px", alignitems:'center'}} key={post.id}>
-                        <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <div className="glow d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                             <h2 className="pt-5 mb-4 display-6 lh-1 fw-bold">{post.title}</h2>
                             <ul className="d-flex mt-auto">
                                 <li className="d-flex align-items-center me-3">

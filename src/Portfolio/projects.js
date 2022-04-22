@@ -74,8 +74,8 @@ export const projects = [
         "id": "7",
         "title": "Tic-Tac-Toe",
         "teaser": "First looks at MVC design pattern.",
-        "link": "#",
-        "photo": "./images/screenshot",
+        "link": "https://github.com/anthony-devarti/tic-tac-toe",
+        "photo": "tictactoe.png",
         "stack": "[html, javascrip, css]",
         "date": "03/13/22",
         "week": "7"

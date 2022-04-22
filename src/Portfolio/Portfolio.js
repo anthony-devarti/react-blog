@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCode } from "@fortawesome/free-solid-svg-icons"
 import { projects } from "./projects"
 import { Button } from "react-bootstrap"
+import React from "react"
 
 export default function Portfolio(){
     //this is going to have a lot of logic.  I do not like repeating this code over and over again.  I'd like to store this information in a database, and procedurally generate each of the fields based on that information.
@@ -18,16 +19,16 @@ export default function Portfolio(){
               <div className="row cols cols-3 mt-3" style={{justifyContent:"space-evenly"}}>
               {projects.reverse().map(project => {
                 return (
-                  <>
+                  <React.Fragment key={project.id}>
                     <div className="card">
                       <figure className="card__thumbnail">
                         <img src={process.env.PUBLIC_URL + '/projectphotos/' + project.photo }></img>
                         <span className="card__title">{project.title}</span>
                       </figure>
                         <span className="date__field" >{project.date}</span>
-                      <a href={project.link} className="btn btn-lg btn-secondary fw-bold mt-5">Visit</a>
+                        <a href={project.link} className="btn btn-lg btn-secondary fw-bold">Visit</a>
                     </div>
-                  </>
+                  </React.Fragment>
               );
             })}
           </div>
