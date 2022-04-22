@@ -79,7 +79,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: .5rem;
+    padding-bottom: .25rem;
   }  
 
 /* Styles for:
@@ -107,7 +107,7 @@
   position: absolute; left: 0; bottom: 0; 
   background-image: linear-gradient(to bottom, transparent, #000 100%);
   margin-top: -150px;
-  height: 150px;
+  height: 200px;
   width: 100%;
   content: '';
   align-items: center;
@@ -127,3 +127,7 @@
   content: '';
   opacity: 60; */
 /* } */
+
+.row {
+  --bs-gutter-x: 0rem
+}
