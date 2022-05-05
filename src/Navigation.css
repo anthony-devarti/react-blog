@@ -1,0 +1,15 @@
+.nav-link:hover:hover {
+    color: aquamarine !important;
+
+}
+
+.navbar-brand {
+    color: aquamarine !important;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar-brand {
+        display: none;
+    }
+    
+}

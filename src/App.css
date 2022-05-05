@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .App-logo {
@@ -7,32 +8,126 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.div.scrollmenu a {
+  display: inline-block;
   color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.horizontal-scroll {
+  overflow-x: scroll;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scrollable {
+  display: inline-block;
+}
+
+.superheader {
+  background-color: 1f2327;
+  color: aquamarine;
+  padding: 35px;
+  font-size: 4em;
+  font-family: "arial";
+  margin-top: 4rem;
+}
+
+.textfield {
+  max-width: 70vw;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+/**************************************************
+** CARDS STYLING 
+***************************************************/
+/* Card outside box. Here is where the 
+** dimensions, shadows and borders are set 
+------------------------------------------ */
+.card{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 3rem;
+  width: 300px; /* Box dimensions */
+  height: 350px; 
+  
+  border-radius: 4px; /* Styling */
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);  
+  transition: box-shadow 0.56s ease-in-out; /* Animation */
+  /* background-color: rgba(0,0,0,.2); /* for debugging */
+}
+/* Shows an outer shadow */
+.card:hover{ /* Just for styling */
+  cursor: pointer;
+  box-shadow: 0 24px 38px 3px rgba(244, 242, 242, 0.4), 0 9px 46px 8px rgba(248, 246, 246, 0.2), 0 11px 15px -7px rgba(248, 244, 244, 0.02);
+}
+
+/* Cards titles styling
+------------------------------------------ */
+.card__title{ /* Just for styling */
+    align-self: flex-end;
+    color: rgba(255,255,255,.90); font-size: 2rem;
+    line-height: 1;font-weight: 600; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: .25rem;
+  }  
+
+/* Styles for:
+** - Using IMG tag inside a container
+------------------------------------------ */
+/* The image container */
+.card__thumbnail{
+  position: relative;
+  overflow: hidden;  
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  
+  width: 100%; /* Thumbnail dimensions. */
+  height: 100%; /*** Change the height to make the image smaller ***/
+  /* background-color: rgba(0,0,0,.2);  /* for debugging */
+  
+}
+/* Sets the image dimensions */
+.card__thumbnail > img{ /* Tip: use 1:1 ratio images */
+  height: 100%; /* or width when img.width > img.height */ 
+}  
+/* Styles the title inside the img container */
+.card__thumbnail > .card__title{ /* Just for styling */
+  position: absolute; left: 0; bottom: 0; 
+  background-image: linear-gradient(to bottom, transparent, #000 100%);
+  margin-top: -150px;
+  height: 200px;
+  width: 100%;
+  content: '';
+  align-items: center;
+}
+
+.card-img {
+  z-index: 0;
+}
+/*this is showing up under the images rather than on top of them. I don't know why*/
+/* .card-img::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, #fff, #000 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+  opacity: 60; */
+/* } */
+
+.row {
+  --bs-gutter-x: 0rem
 }

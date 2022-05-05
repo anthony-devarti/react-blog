@@ -1,0 +1,104 @@
+.btn-secondary{
+    color: #333;
+    border: white;
+    background-color: rgb(235, 235, 235);
+}
+
+.btn-secondary:hover{
+    color: rgb(0, 255, 200);
+    background-color:#333;
+}
+.btn-secondary:focus{
+    color: #333;
+    text-shadow: none;
+
+}
+.text-white{
+    border-color: rgb(235, 235, 235);
+}
+
+.nav-link {
+    color:rgb(0, 255, 200);
+}
+.nav-link:hover{
+    color:rgb(235, 235, 235)
+}
+
+
+/* CONTACTS */
+.contact-box {
+    background-color: #ffffff;
+    border: 1px solid #e7eaec;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.contact-box > a {
+    color: inherit;
+}
+.contact-box.center-version {
+    border: 1px solid #e7eaec;
+    padding: 0;
+}
+.contact-box.center-version > a {
+    display: block;
+    background-color: #212529 !important;
+    padding: 20px;
+    text-align: center;
+    color: #e7eaec;
+}
+.contact-box.center-version > a img {
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact-box.center-version address {
+    margin-bottom: 0;
+    color: #e7eaec;
+}
+.contact-box .contact-box-footer {
+    text-align: center;
+    background-color: #212529;
+    border-top: 1px solid #e7eaec;
+    padding: 15px 20px;
+}
+a{
+    text-decoration:none !important;    
+}
+
+.contactbutton{
+    color: #e7eaec;
+}
+
+.contactbutton :hover{
+    color: rgb(0, 255, 200);
+}
+
+p{
+    color: #e7eaec;
+}
+
+h2{
+    color: #e7eaec;
+}
+
+h3 {
+    color:rgb(0, 255, 200)
+}
+
+h4 {
+    color: #e7eaec;
+}
+
+.dark-card {
+  background-color: 333;
+}
+
+.icon-row {
+    gap: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+}
